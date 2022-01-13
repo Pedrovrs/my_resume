@@ -233,7 +233,7 @@ section.description p{
         line-height: 35px;
     }  
 
-    .formacao{
+    .qualificacao{
         padding: 50px;
     }
 
@@ -413,6 +413,25 @@ section.description p{
         column-gap: 20px;
     }
 
+    .icons-social a{
+        font-size: 10px;
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    .uil:hover{
+        color: #f0417e;
+        opacity: 1;
+        visibility: visible;
+        font-size: 15px;
+    }
+    
+    .icons-social i{
+        line-height: 30px;
+    }  
+
     .sidebar{
         display: flex;
         justify-content: center;
@@ -462,7 +481,7 @@ section.description p{
     }
 
     section.description h4{
-        margin: 55px 0 0 10px;
+        margin: 65px 0 0 10px;
         color: #6e6d74;
         font-size: 14px; 
         text-align: center;
@@ -503,11 +522,16 @@ section.description p{
         color: #f0417e;
         font-size: 24px;
         text-align: center;
-        padding-bottom: 30px;
+        padding-bottom: 25px;
+
     }
 
     section.qualificacao ul{
         font-size: 12px;
+    }
+
+    .item2{
+        padding-top: 20px;
     }
 }
 /*------------------------------ Responsividade - formacao ------------------------------*/
