@@ -442,7 +442,7 @@ section.description p{
 
     section.description{
         position: relative;
-        padding-top: 100px;
+        padding-top: 60px;
     }
 
     section.description h2{
@@ -462,14 +462,14 @@ section.description p{
     }
 
     section.description h4{
-        margin: 50px 0 0 10px;
+        margin: 55px 0 0 10px;
         color: #6e6d74;
         font-size: 14px; 
         text-align: center;
     }
 
     section.description h6{
-        margin: 5px 0 0 10px;
+        margin: 1px 0 0 10px;
         color: #f0417e;
         font-size: 8px; 
         text-align: center;
@@ -493,7 +493,7 @@ section.description p{
     .qualificacao{
         color: #7e7f83;
         font-size: 12px;
-        padding: 250px 18.75px 0 18.75px;
+        padding: 220px 18.75px 0 18.75px;
         margin-right: 0;
         width: auto;
         text-align: justify;
@@ -508,10 +508,6 @@ section.description p{
 
     section.qualificacao ul{
         font-size: 12px;
-    }
-
-    section.qualificacao li{
-        margin-block-end: 20px;
     }
 }
 /*------------------------------ Responsividade - formacao ------------------------------*/
