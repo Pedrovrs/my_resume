@@ -130,7 +130,6 @@ section.description p{
 }
 
 .icons-social{
-    margin-top: 50px;
     display: flex;
     flex-direction: column;
     row-gap: 30px;
@@ -404,12 +403,11 @@ section.description p{
         position: absolute;
         bottom: 0;
         width: 100%;
-        height: 5%;
+        height: 50px;
         border-radius: 10px 10px 0 0;
     }
 
     .icons-social{
-        padding-bottom: 3em;
         display: flex;
         flex-direction: row;
         column-gap: 20px;
