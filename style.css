@@ -376,13 +376,15 @@ section.description p{
         display: flex;
         flex-direction: row;
         justify-content:center;
-        column-gap: 30px;
+        flex-wrap: wrap;
+        column-gap: 5px;
+        padding: 25px 0 0 0;
     }
 
     .menu a {
         color: #001845;
         opacity: 0.65;
-        font-size: 14px;
+        font-size: 12.5px;
         padding:5px;
         text-decoration: none;
         background:azure ;
@@ -483,14 +485,14 @@ section.description p{
     section.description h4{
         margin: 65px 0 0 10px;
         color: #6e6d74;
-        font-size: 14px; 
+        font-size: 20px; 
         text-align: center;
     }
 
     section.description h6{
         margin: 1px 0 0 10px;
         color: #f0417e;
-        font-size: 8px; 
+        font-size: 12px; 
         text-align: center;
     }
 
@@ -505,7 +507,7 @@ section.description p{
     }
 }
 
-/*------------------------------ Responsividade - formacao ------------------------------*/
+/*------------------------------ Responsividade - qualificação ----------------------------*/
 
 @media screen and (max-width:500px){
 
@@ -520,21 +522,24 @@ section.description p{
 
     section.qualificacao h2{
         color: #f0417e;
-        font-size: 24px;
+        font-size: 20px;
         text-align: center;
         padding-bottom: 25px;
-
     }
 
     section.qualificacao ul{
         font-size: 12px;
+        list-style-type:circle;
     }
 
     .item2{
         padding-top: 20px;
     }
 
-    
+}
+/*------------------------------ Responsividade - habilidades ------------------------------*/
+
+@media screen and (max-width:500px){
     .habilidades{
         margin: 800px 0;
         color: #7e7f83;
@@ -545,5 +550,21 @@ section.description p{
         text-align: justify;
     }
 
+    section.habilidades h2{
+        color: #f0417e;
+        font-size: 20px;
+        text-align: center;
+        padding-bottom: 15px
+    }
+
+    section.habilidades h4{
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    section.habilidades ul{
+        font-size: 12px;
+        list-style-type:circle;
+        margin-block-end: 20px;
+    }
 }
-/*------------------------------ Responsividade - formacao ------------------------------*/
