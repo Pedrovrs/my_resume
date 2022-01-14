@@ -568,3 +568,30 @@ section.description p{
         margin-block-end: 20px;
     }
 }
+
+/*------------------------------ Responsividade - Certificados ------------------------------*/
+
+@media screen and (max-width:500px){
+    .certificados{
+        margin: 800px 0 0 0;
+        color: #7e7f83;
+        font-size: 12px;
+        padding: 220px 18.75px 220px 18.75px;
+        margin-right: 0;
+        width: auto;
+        text-align: justify;
+    }
+
+    section.certificados h2{
+        color: #f0417e;
+        font-size: 20px;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    section.certificados ul{
+        font-size: 12px;
+        list-style-type:circle;
+        margin-block-end: 20px;
+    }
+}
