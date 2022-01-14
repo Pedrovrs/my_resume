@@ -533,5 +533,17 @@ section.description p{
     .item2{
         padding-top: 20px;
     }
+
+    
+    .habilidades{
+        margin: 800px 0;
+        color: #7e7f83;
+        font-size: 12px;
+        padding: 220px 18.75px 0 18.75px;
+        margin-right: 0;
+        width: auto;
+        text-align: justify;
+    }
+
 }
 /*------------------------------ Responsividade - formacao ------------------------------*/
