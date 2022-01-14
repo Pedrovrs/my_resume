@@ -559,7 +559,8 @@ section.description p{
 
     section.habilidades h4{
         padding: 10px;
-        font-size: 16px;
+        font-size: 12px;
+        list-style-type:circle;
     }
 
     section.habilidades ul{
